@@ -13,8 +13,9 @@ import { Eje1Component } from './ejercicios/eje1/eje1.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule, 
-    FormsModule
+    NgModule,
+    FormsModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
